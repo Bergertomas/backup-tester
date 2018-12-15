@@ -3,9 +3,9 @@ import os, random
 # DEFINES
 DATA_DRIVE = "D:"
 WIN_DRIVE = "C:"
-BACKUP_DRIVE = "F:\\comp_backup\\"
-DATA_BACKUP = "Data\\"
-WIN_BACKUP = "C\\"
+BACKUP_DRIVE = "F:\\comp_backup"
+DATA_BACKUP = "Data"
+WIN_BACKUP = "C"
 DATA_BACKUP_PATH = os.path.join(BACKUP_DRIVE, DATA_BACKUP)
 WIN_BACKUP_PATH = os.path.join(BACKUP_DRIVE, WIN_BACKUP)
 
@@ -56,6 +56,3 @@ class Finder:
 
     def dig_deeper(self):
         pass
-
-
-
