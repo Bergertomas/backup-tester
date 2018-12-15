@@ -3,9 +3,9 @@ import os
 # DEFINES
 DATA_DRIVE = "D:"
 WIN_DRIVE = "C:"
-BACKUP_DRIVE = "F:\\comp_backup\\"
-DATA_BACKUP = "Data\\"
-WIN_BACKUP = "C\\"
+BACKUP_DRIVE = "F:\\comp_backup"
+DATA_BACKUP = "Data"
+WIN_BACKUP = "C"
 DATA_BACKUP_PATH = os.path.join(BACKUP_DRIVE, DATA_BACKUP)
 WIN_BACKUP_PATH = os.path.join(BACKUP_DRIVE, WIN_BACKUP)
 
@@ -87,8 +87,3 @@ class Comparer:
 w = Comparer("D:\\11111", 193994)
 w.backup_path = "F:\comp_backup\Data\\11111"
 w.compare_specific_folder()
-
-
-
-
-
